@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1687017625 source:c:\users\marti\desktop\proyecto tp\trabajopractico\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utilidades.h"
+	"archivo.h"
+	"credito.h"
+
+1687017825 c:\users\marti\desktop\proyecto tp\trabajopractico\archivo.h
+	"credito.h"
+
+1687017825 c:\users\marti\desktop\proyecto tp\trabajopractico\credito.h
+
+1687017746 c:\users\marti\desktop\proyecto tp\trabajopractico\utilidades.h
+	"archivo.h"
+
+1687303476 source:c:\users\marti\desktop\trabajopractico\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"archivo.h"
+	"cliente.h"
+
+1687225610 c:\users\marti\desktop\trabajopractico\utilidades.h
+
+1687303400 c:\users\marti\desktop\trabajopractico\archivo.h
+	"cliente.h"
+
+1687212723 c:\users\marti\desktop\trabajopractico\credito.h
+
+1687303400 c:\users\marti\desktop\trabajopractico\cliente.h
+

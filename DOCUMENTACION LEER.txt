@@ -1,0 +1,27 @@
+Autor: Martin Schubert
+Fecha de entrega: 20/6/23
+
+archivo.h contiene funciones largas
+credito.h tiene definido el struct y contiene funciones auxiliares cortas
+
+Errores identificados:
+
+
+-el listado de clientes la opcion de rango de fecha tiene error
+
+-cuando se listan los clientes activos salen solo los impares pero son solo los que se migro de presta.csv, 
+los ingresados manualmente salen todos.
+
+-el campo tipo de credito lo defini como string y que se validen como string, luego vi la consigna que era con 1 y 2, pero ya lo tenia hecho y 
+no llegue a cambiarlo
+
+-la funcion que elimina los clientes inactivos y renombra el archivo no funciona
+
+-para que la funcion listar archivos eliminados funcione se necesita que el cliente ingrese la fecha en que se eliminaron los clientes
+porque sino, usando un puntero y tomando el nombre de la funcion bajaFisicaClientesInactivos, si el programa se cierra, no se ejecuta
+el archivo de eliminados
+
+-la funcion buscarApellido no encuentra si no se busca exactamente igual a una palabra contenia por el registro original
+(ej: escribe "lucas" y no lo toma porque en el registro esta "Lucas" escrito)
+
+	  
